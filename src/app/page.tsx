@@ -67,8 +67,8 @@ export default function Home() {
               </Button>
             </Link>
           </div>
-          <div className="relative m-2.5 aspect-[3/4] w-full max-w-52 duration-1000 animate-in fade-in slide-in-from-top-10">
-            <Card>
+          <div className="relative m-2.5 aspect-[3/4] w-full max-w-64 shadow-lg shadow-indigo-600 rounded-2xl duration-1000 animate-in fade-in slide-in-from-top-10">
+            <Card className="w-full h-full bg-cover rounded-2xl">
               <div className="relative mt-7 aspect-square h-28">
                 <span className="absolute left-1/2 top-1/2 z-[2] -translate-x-1/2 -translate-y-1/2 text-3xl font-black">
                   $0
@@ -81,7 +81,7 @@ export default function Home() {
                   src={"/assets/shieldicon.svg"}
                 />
               </div>
-              <div className="mt-5 flex flex-col items-center justify-center text-center">
+              <div className="mt-5 flex flex-col  items-center justify-center text-center ">
                 <span className="bg-gradient-to-t from-neutral-400 to-white bg-clip-text text-2xl font-semibold text-transparent">
                   Betaal achteraf
                 </span>

@@ -16,23 +16,23 @@ export const cardList: Card[] = [
     description: "Betaal achteraf, betaal €2000 zodra €5000 is verdiend.",
   },
   {
-    title: "Dropshipping",
+    title: "Snel resultaat",
     description:
-      "Unieke toegang tot moderne dropshipping: Laat je begeleiden door experts met de nieuwste strategieën en tactieken.",
+      "De strategie die we hanteren gaat ervoor zorgen, dat we snel en efficiënt ons gezamenlijke doel van €5.000 winst kunnen behalen.",
   },
   {
-    title: "Betaalbaar",
+    title: "Transparant",
     description:
-      "Lage voorafgaande kosten: Ervaar de voordelen van geld verdienen zonder veel vooraf te investeren!",
+      "We leggen je precies, en eerlijk uit hoe je snel en makkelijk winst kunt gaan maken met dropshipping. En geen geld hoeft te verspillen.",
   },
   {
-    title: "Coaching",
+    title: "Persoonlijke aanpak",
     description:
-      "Persoonlijke coaching: 24/7 chat contact Whatsapp Met alle 3 de eigenaren.",
+      "Persoonlijke coaching via Whatsapp. Op deze manier kunnen wij jou maximaal motiveren om alles te geven en in korte tijd succesvol te worden.",
   },
   {
-    title: "Netwerk",
+    title: "24 uur Ready2Go",
     description:
-      "Toegang tot een exclusief netwerk: Storedesigners, video-editors en mediabuyers gelijk tot je beschikking! Dit zal de key naar snel succes gaan zijn.",
+      "Storedesigner en videoeditor worden per direct aangeleverd. Waardoor wij alleen maar het beste winnende product hoeven te selecteren en je geld kan gaan verdienen.",
   },
 ];
