@@ -5,7 +5,6 @@ import Navbar from "@/components/ui/navbar/navbar";
 import VideoLoader from "@/components/ui/videoloader";
 import { cardList } from "@/lib/utils";
 import { PlayIcon } from "lucide-react";
-import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
