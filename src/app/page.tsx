@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const whatsappURL = "https://wa.me/message/IUBHU6NTSRG7B1";
   return (
     <main className="flex w-full flex-col items-center justify-center ">
       <Navbar />
@@ -20,7 +21,7 @@ export default function Home() {
           Start de Coaching en Betaal Achteraf
         </h1>
         <div className="flex flex-col flex-wrap items-center justify-center gap-5 md:flex-row">
-          <Link target="_blank" href={"https://wa.me/message/IUBHU6NTSRG7B1"}>
+          <Link target="_blank" href={whatsappURL}>
             <Button
               className="w-[150px] duration-1000 animate-in fade-in slide-in-from-top"
               variant={"inverse"}
@@ -60,14 +61,14 @@ export default function Home() {
               David kon starten met Dropshipping en geld verdienen, zonder
               vooraf duizenden euro’s te investeren in Coaching
             </p>
-            <Link target="_blank" href={"https://wa.me/message/IUBHU6NTSRG7B1"}>
+            <Link target="_blank" href={whatsappURL}>
               <Button className="duration-1000 animate-in fade-in slide-in-from-top">
                 Meld me aan
               </Button>
             </Link>
           </div>
-          <div className="relative m-2.5 aspect-[3/4] w-full max-w-64 shadow-lg shadow-indigo-600 rounded-2xl duration-1000 animate-in fade-in slide-in-from-top-10">
-            <Card className="w-full h-full bg-cover rounded-2xl">
+          <div className="relative m-2.5 aspect-[3/4] w-full max-w-64 rounded-2xl shadow-lg shadow-indigo-600 duration-1000 animate-in fade-in slide-in-from-top-10">
+            <Card className="h-full w-full rounded-2xl bg-cover">
               <div className="relative mt-7 aspect-square h-28">
                 <span className="absolute left-1/2 top-1/2 z-[2] -translate-x-1/2 -translate-y-1/2 text-3xl font-black">
                   $0
@@ -131,10 +132,7 @@ export default function Home() {
                 gaan toelaten aan de coaching aangezien we geen upfront
                 betaling vereisten.
               </p>
-              <Link
-                target="_blank"
-                href={"https://wa.me/message/IUBHU6NTSRG7B1"}
-              >
+              <Link target="_blank" href={whatsappURL}>
                 <Button variant={"cta"}>Neem nu contact op</Button>
               </Link>
             </div>
