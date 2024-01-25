@@ -12,9 +12,9 @@ export default function Home() {
   const whatsappURL = "https://wa.me/message/IUBHU6NTSRG7B1";
   return (
     <main className="flex w-full flex-col items-center justify-center ">
-      <Navbar />
+     
 Maintenance, we'll be back soon.
-      <Footer />
+     
     </main>
   );
 }
